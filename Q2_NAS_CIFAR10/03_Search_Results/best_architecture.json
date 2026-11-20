@@ -1,0 +1,54 @@
+{
+  "best_trial": 6,
+  "search_validation_accuracy": 0.534,
+  "parameter_count": 90618,
+  "learning_rate": 0.001370030396206459,
+  "resources": {
+    "checkpoint_size_mb": 0.3590574264526367,
+    "cpu_latency_median_ms": 1.3662139999723877,
+    "cpu_latency_p95_ms": 1.5589771500003735,
+    "peak_process_rss_mb": 2169.8515625,
+    "inference_memory_delta_mb": 0.0546875,
+    "memory_measurement": "psutil process RSS sampled every 5 ms",
+    "cpu_threads": 1,
+    "batch_size": 1
+  },
+  "architecture_config": {
+    "input_resolution": 32,
+    "blocks": [
+      {
+        "channels": 48,
+        "kernel_size": 3,
+        "block_type": "standard",
+        "activation": "hardswish",
+        "stride": 2
+      },
+      {
+        "channels": 96,
+        "kernel_size": 3,
+        "block_type": "standard",
+        "activation": "hardswish",
+        "stride": 2
+      },
+      {
+        "channels": 64,
+        "kernel_size": 5,
+        "block_type": "depthwise_separable",
+        "activation": "hardswish",
+        "stride": 1
+      },
+      {
+        "channels": 24,
+        "kernel_size": 5,
+        "block_type": "standard",
+        "activation": "hardswish",
+        "stride": 1
+      }
+    ]
+  },
+  "deployment_constraints": {
+    "max_cpu_p95_latency_ms": 100.0,
+    "max_checkpoint_size_mb": 8.0,
+    "max_inference_memory_delta_mb": 256.0
+  }
+}

@@ -1,0 +1,7 @@
+model,onnx_path,size_mb,cpu_latency_ms_per_batch,batch_size,max_abs_logit_error
+mobilenet_v2_baseline,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/04_ONNX_Models/fp32/mobilenet_v2_baseline.onnx,8.946117401123047,3.383881099989594,8,3.814697265625e-06
+mobilenet_v2_distilled,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/04_ONNX_Models/fp32/mobilenet_v2_distilled.onnx,8.946117401123047,3.4259968500009563,8,5.7220458984375e-06
+squeezenet_baseline,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/04_ONNX_Models/fp32/squeezenet_baseline.onnx,2.968954086303711,0.7876781499817298,8,2.384185791015625e-06
+squeezenet_distilled,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/04_ONNX_Models/fp32/squeezenet_distilled.onnx,2.968954086303711,0.7930513499559311,8,6.67572021484375e-06
+efficientnet_lite0_baseline,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/04_ONNX_Models/fp32/efficientnet_lite0_baseline.onnx,13.30359172821045,4.458201850002297,8,3.814697265625e-06
+efficientnet_lite0_distilled,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/04_ONNX_Models/fp32/efficientnet_lite0_distilled.onnx,13.30359172821045,6.787184250015343,8,5.4836273193359375e-06

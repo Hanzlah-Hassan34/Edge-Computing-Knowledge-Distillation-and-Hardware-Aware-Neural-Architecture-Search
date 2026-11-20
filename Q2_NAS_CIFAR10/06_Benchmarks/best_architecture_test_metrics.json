@@ -1,0 +1,40 @@
+{
+  "test_loss": 0.7408809348106384,
+  "test_accuracy": 0.7575,
+  "validation_accuracy": 0.7632,
+  "parameter_count": 90618,
+  "architecture_config": {
+    "input_resolution": 32,
+    "blocks": [
+      {
+        "channels": 48,
+        "kernel_size": 3,
+        "block_type": "standard",
+        "activation": "hardswish",
+        "stride": 2
+      },
+      {
+        "channels": 96,
+        "kernel_size": 3,
+        "block_type": "standard",
+        "activation": "hardswish",
+        "stride": 2
+      },
+      {
+        "channels": 64,
+        "kernel_size": 5,
+        "block_type": "depthwise_separable",
+        "activation": "hardswish",
+        "stride": 1
+      },
+      {
+        "channels": 24,
+        "kernel_size": 5,
+        "block_type": "standard",
+        "activation": "hardswish",
+        "stride": 1
+      }
+    ]
+  },
+  "checkpoint": "/content/drive/MyDrive/NAS_CIFAR10_Edge_Neural_Architecture_Search/04_Checkpoints/final/best_cifar10_nas_model.pt"
+}

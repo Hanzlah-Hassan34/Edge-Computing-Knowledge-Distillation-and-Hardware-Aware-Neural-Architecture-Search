@@ -1,0 +1,7 @@
+model,test_loss,test_accuracy,parameters,checkpoint
+efficientnet_lite0_distilled,2.849882667922974,0.3223,3499108,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/03_Checkpoints/distilled/efficientnet_lite0_distilled.pt
+mobilenet_v2_distilled,2.931283752441406,0.3088,2351972,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/03_Checkpoints/distilled/mobilenet_v2_distilled.pt
+mobilenet_v2_baseline,2.933092227935791,0.2614,2351972,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/03_Checkpoints/baseline/mobilenet_v2_baseline.pt
+efficientnet_lite0_baseline,2.9458806449890136,0.2534,3499108,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/03_Checkpoints/baseline/efficientnet_lite0_baseline.pt
+squeezenet_distilled,3.5124063621521,0.177,773796,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/03_Checkpoints/distilled/squeezenet_distilled.pt
+squeezenet_baseline,3.5371577056884766,0.1402,773796,/content/drive/MyDrive/KD_CIFAR100_Knowledge_Distillation/03_Checkpoints/baseline/squeezenet_baseline.pt

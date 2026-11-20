@@ -1,0 +1,12 @@
+{
+  "onnx_path": "/content/drive/MyDrive/NAS_CIFAR10_Edge_Neural_Architecture_Search/05_ONNX/best_cifar10_nas_model.onnx",
+  "onnx_size_mb": 0.3472738265991211,
+  "onnx_max_abs_logit_error": 5.245208740234375e-06,
+  "cpu_latency_median_ms": 0.20458550011426269,
+  "cpu_latency_p95_ms": 0.2938848999747279,
+  "peak_process_rss_mb": 2205.8515625,
+  "inference_memory_delta_mb": 0.01953125,
+  "memory_measurement": "psutil process RSS sampled every 5 ms",
+  "batch_size": 1,
+  "input_resolution": 32
+}

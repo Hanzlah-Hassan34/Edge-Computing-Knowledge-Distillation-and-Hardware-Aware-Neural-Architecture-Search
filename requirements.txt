@@ -1,0 +1,14 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+pandas
+matplotlib
+scikit-learn
+optuna
+onnx
+onnxruntime
+psutil
+tqdm
+Pillow
+ipython
+reportlab
